@@ -43,43 +43,33 @@
 ## 📦 Setup Instructions
 
 ### 1. Clone the repo
+- git clone https://github.com/your-username/admin-dashboard-angular.git
+- cd admin-dashboard-angular
 
-```bash
-git clone https://github.com/your-username/admin-dashboard-angular.git
-cd admin-dashboard-angular
+### 2. Install dependencies
+- npm install
 
-Install dependencies
-bash
-Copy
-Edit
-npm install
-3. Start the JSON Server
-bash
-Copy
-Edit
-npx json-server --watch db.json --port 3000
-4. Run the Angular App
-bash
-Copy
-Edit
-ng serve
-Open in browser: http://localhost:4200
+### 3. Start the JSON Server
+- npx json-server --watch db.json --port 3000
 
-🛡️ Route Guard Logic
-Checks localStorage for "isLoggedIn"
+### 4. Run the Angular App
+- ng serve
+- Open in browser: http://localhost:4200
 
-Redirects to /login if unauthenticated
+---
 
-Blocks access to /home and child routes unless logged in
+### 🛡️ Route Guard Logic
+- Checks localStorage for "isLoggedIn"
+- Redirects to /login if unauthenticated
+- Blocks access to /home and child routes unless logged in
 
-🗃️ CRUD Operations
-Add, Edit, Delete, and View Products via ProductService
+### 🗃️ CRUD Operations
+- Add, Edit, Delete, and View Products via ProductService
+- Products and clients are fetched from and saved to db.json
 
-Products and clients are fetched from and saved to db.json
-
-📊 Charts Implemented
-Chart Type	Purpose
-📌 Counter Cards	Total products and clients
-🥧 Pie Chart	Product distribution by category
-📈 Line Chart	Client registrations over time
-📊 Bar Chart	Average product price by category
+### 📊 Charts Implemented
+## Chart Type	Purpose
+- 📌 Counter Cards- Total products and clients
+- 🥧 Pie Chart -	Product distribution by category
+- 📈 Line Chart	Client - registrations over time
+- 📊 Bar Chart	- Average product price by category
