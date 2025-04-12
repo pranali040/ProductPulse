@@ -43,18 +43,25 @@
 ## 📦 Setup Instructions
 
 ### 1. Clone the repo
-- git clone https://github.com/your-username/admin-dashboard-angular.git
-- cd admin-dashboard-angular
+```bash
+git clone https://github.com/your-username/admin-dashboard-angular.git
+cd productform
+```
 
 ### 2. Install dependencies
-- npm install
+```bash
+npm install
+```
 
 ### 3. Start the JSON Server
-- npx json-server --watch db.json --port 3000
+```bash
+npx json-server --watch db.json --port 3000
+```
 
 ### 4. Run the Angular App
-- ng serve
-- Open in browser: http://localhost:4200
+```bash
+ng serve
+```
 
 ---
 
