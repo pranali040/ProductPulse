@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/817bd84a-db88-4f94-bd4f-ddb6806a616e)![image](https://github.com/user-attachments/assets/9cb2a457-dd0a-4054-b2ae-7e9295b0a2b0)# 🚀 ProductPulse - Admin Dashboard (Angular)
+# 🚀 ProductPulse - Admin Dashboard (Angular)
 
 **ProductPulse** is a Admin Dashboard built with Angular and Chart.js. It provides a fully functional admin interface to manage clients and products, visualize data trends, secure routing using guards and CRUD functionality.
 
