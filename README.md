@@ -1,4 +1,4 @@
-# 🚀 ProductPulse - Admin Dashboard (Angular)
+![image](https://github.com/user-attachments/assets/817bd84a-db88-4f94-bd4f-ddb6806a616e)![image](https://github.com/user-attachments/assets/9cb2a457-dd0a-4054-b2ae-7e9295b0a2b0)# 🚀 ProductPulse - Admin Dashboard (Angular)
 
 **ProductPulse** is a Admin Dashboard built with Angular and Chart.js. It provides a fully functional admin interface to manage clients and products, visualize data trends, secure routing using guards and CRUD functionality.
 
@@ -63,13 +63,23 @@
 - Redirects to /login if unauthenticated
 - Blocks access to /home and child routes unless logged in
 
+---
+
+
 ### 🗃️ CRUD Operations
 - Add, Edit, Delete, and View Products via ProductService
 - Products and clients are fetched from and saved to db.json
 
-### 📊 Charts Implemented
-## Chart Type	Purpose
-- 📌 Counter Cards- Total products and clients
-- 🥧 Pie Chart -	Product distribution by category
-- 📈 Line Chart	Client - registrations over time
-- 📊 Bar Chart	- Average product price by category
+---
+
+### Screenshots
+1. Login Page
+![image](https://github.com/user-attachments/assets/f7e184fe-6589-4459-bf19-bd42d556fddd)
+
+2. Dashboard Page
+![Screenshot 2025-04-12 231543](https://github.com/user-attachments/assets/20b9bbf2-f796-4d87-acef-748f5e7259dd)
+
+
+3. Add Product
+![image](https://github.com/user-attachments/assets/7d8300e1-5684-46f9-bf12-8e1cf5a14347)
+
