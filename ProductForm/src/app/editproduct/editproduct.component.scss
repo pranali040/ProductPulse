@@ -1,0 +1,36 @@
+.dialog-header {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  
+    h2 {
+      margin: 1rem;
+      margin-bottom: 0;
+    }
+  
+    .close-btn {
+      margin-top: 1rem;
+      margin-left: 17rem;
+      color: #444;
+      &:hover {
+        color: #e53935;
+      }
+    }
+  }
+  
+.dialog-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    margin-top: 1rem;
+  }
+  
+  .full-width {
+    margin-left: 3.5rem;
+    width: 80%;
+  }
+  
+  .actions {
+    text-align: center;
+  }
+  

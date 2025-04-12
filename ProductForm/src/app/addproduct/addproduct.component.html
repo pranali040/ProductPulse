@@ -1,0 +1,24 @@
+<form class="product">
+    <h1>Add Product </h1>
+
+    <div>
+        <label>Product Name </label>
+        <input type="text" id="pname" name="productName" [(ngModel)]="product.name"  placeholder="Product name" required/>
+
+        <label for="price">Price </label>
+        <input type="number" id="price" name="price" [(ngModel)]="product.price" placeholder="Product price" required/>
+            
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" name="prodquantity" [(ngModel)]="product.quantity"  placeholder="Total Quantity" required/>
+        
+        <label for="Category">Category</label>
+        <select [(ngModel)]="product.categories" name="category">
+            <option *ngFor="let cat of product.categories" [value]="cat">{{ cat }} </option>
+        </select>
+
+        <button (click)="gotoproductlist()">Product List</button>
+        <button (click)="submit()">Submit</button>
+        
+    </div>
+    
+</form>

@@ -1,0 +1,133 @@
+{
+  "admin":[
+    {
+      "id": "1",
+      "fullName": "Admin-1",
+      "email": "admin1@gmail.com",
+      "password":"admin1"
+    }
+  ],
+  "clients": [
+    {
+      "id": "c4f8",
+      "fullName": "Client-1",
+      "email": "client1@gmail.com",
+      "password": "client1",
+      "registeredDate": "2024-04-01"
+    },
+    {
+      "id": "f8cf",
+      "fullName": "Client-2",
+      "email": "client2@gmail.com",
+      "password": "client2",
+      "registeredDate": "2024-04-02"
+    },
+    {
+      "id": "d8f1",
+      "fullName": "Client-3",
+      "email": "client3@gmail.com",
+      "password": "client3",
+      "registeredDate": "2024-04-02"
+    },
+    {
+      "id": "a1b2",
+      "fullName": "Client-4",
+      "email": "client4@gmail.com",
+      "password": "client4",
+      "registeredDate": "2024-04-03"
+    },
+    {
+      "id": "b3c4",
+      "fullName": "Client-5",
+      "email": "client5@gmail.com",
+      "password": "client5",
+      "registeredDate": "2024-04-04"
+    },
+    {
+      "id": "e5f6",
+      "fullName": "Client-6",
+      "email": "client6@gmail.com",
+      "password": "client6",
+      "registeredDate": "2024-04-04"
+    },
+    {
+      "id": "g7h8",
+      "fullName": "Client-7",
+      "email": "client7@gmail.com",
+      "password": "client7",
+      "registeredDate": "2024-04-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Mobile Galaxy",
+      "price": 10000,
+      "quantity": "20",
+      "categories": "Electronics"
+    },
+    {
+      "id": "2",
+      "name": "Refrigator",
+      "price": 50000,
+      "quantity": 20,
+      "categories": "Home & Kitchen"
+    },
+    {
+      "id": "3",
+      "name": "Bread",
+      "price": 20,
+      "quantity": 50,
+      "categories": "Food"
+    },
+    {
+      "id": "4",
+      "name": "Makeup",
+      "price": 5000,
+      "quantity": 40,
+      "categories": "Beauty"
+    },
+    {
+      "id": "5",
+      "name": "Laptop",
+      "price": 75000,
+      "quantity": 15,
+      "categories": "Electronics"
+    },
+    {
+      "id": "6",
+      "name": "Oven",
+      "price": 8000,
+      "quantity": 10,
+      "categories": "Home & Kitchen"
+    },
+    {
+      "id": "7",
+      "name": "Banana",
+      "price": 10,
+      "quantity": 100,
+      "categories": "Food"
+    },
+    {
+      "id": "8",
+      "name": "Face Cream",
+      "price": 300,
+      "quantity": 30,
+      "categories": "Beauty"
+    },
+    {
+      "id": "9",
+      "name": "TV",
+      "price": 40000,
+      "quantity": 12,
+      "categories": "Electronics"
+    },
+    {
+      "id": "10",
+      "name": "Shampoo",
+      "price": 150,
+      "quantity": 60,
+      "categories": "Beauty"
+    }
+  ]
+}

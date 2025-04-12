@@ -1,0 +1,26 @@
+<div class="list">
+    <h2>Product List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Quantity</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of products">
+          <td>{{ product.id }}</td>
+          <td>{{ product.name }}</td>
+          <td>{{product.quantity}}</td>
+          <td>
+            <!-- <a [routerLink]="['/proddetail', product.id]">Product Deatils</a> -->
+            <button mat-icon-button color="primary" (click)="viewProductDetails(product.id)"><mat-icon>visibility</mat-icon></button>
+            <button mat-icon-button color="accent" (click)="editproductdetails(product.id)"><mat-icon>edit</mat-icon></button>
+            <button mat-icon-button color="warn" (click)="Deleteproduct(product.id)"><mat-icon>delete</mat-icon></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>

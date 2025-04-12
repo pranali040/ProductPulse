@@ -1,0 +1,18 @@
+<div class="client-list">
+    <h2>Client List</h2>
+
+    <table class="client-table">
+    <thead>
+        <tr>
+        <th>Full Name</th>
+        <th>Email ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let client of clients">
+        <td>{{ client.fullName }}</td>
+        <td>{{ client.email }}</td>
+        </tr>
+    </tbody>
+    </table>
+</div>

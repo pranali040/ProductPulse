@@ -1,0 +1,32 @@
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="fill">
+      <mat-label>Full Name</mat-label>
+      <input matInput formControlName="fullName" required>
+      <mat-error *ngIf="f['fullName'].touched && f['fullName'].errors?.['required']">Full name is required</mat-error>
+      <mat-error *ngIf="f['fullName'].errors?.['minlength']">Minimum 3 characters</mat-error>
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" required type="email">
+      <mat-error *ngIf="f['email'].touched && f['email'].errors?.['required']">Email is required</mat-error>
+      <mat-error *ngIf="f['email'].errors?.['email']">Invalid email</mat-error>
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Password</mat-label>
+      <input matInput formControlName="password" required type="password">
+      <mat-error *ngIf="f['password'].touched && f['password'].errors?.['required']">Password is required</mat-error>
+      <mat-error *ngIf="f['password'].errors?.['minlength']">Minimum 6 characters</mat-error>
+    </mat-form-field>
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Confirm Password</mat-label>
+      <input matInput formControlName="confirmPassword" required type="password">
+      <mat-error *ngIf="f['confirmPassword'].touched && f['confirmPassword'].errors?.['required']">Confirm your password</mat-error>
+      <mat-error *ngIf="registerForm.errors?.['passwordMismatch']">Passwords do not match</mat-error>
+    </mat-form-field>
+  
+    <button mat-raised-button color="primary" type="submit">Register</button>
+  </form>
+  

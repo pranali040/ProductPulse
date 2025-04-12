@@ -1,0 +1,38 @@
+.dialog-header {
+    display: flex;
+    // justify-content: space-around;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+  
+    h2 {
+        margin-left: 1rem;
+        margin-bottom: 0rem;
+        font-size: 22px;
+        color: #3f51b5;
+      }
+  
+    .close-btn {
+      margin-top: 1rem;
+      margin-left: 11rem;  
+      color: #555;
+      transition: color 0.3s ease;
+  
+      &:hover {
+        color: #e53935;
+      }
+    }
+  }
+
+
+  
+  p {
+    margin: 1rem;
+    font-size: 15px;
+  
+    strong {
+      font-weight: 500;
+      color: #333;
+    }
+  }
+  

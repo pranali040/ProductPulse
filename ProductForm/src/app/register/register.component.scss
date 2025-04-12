@@ -1,0 +1,57 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+  }
+  
+  form {
+    background: white;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    animation: slideIn 0.7s ease-out;
+  
+    mat-form-field {
+      width: 100%;
+  
+      .mat-input-element {
+        font-size: 15px;
+      }
+  
+      mat-error {
+        font-size: 13px;
+      }
+    }
+  
+    button {
+      background-color: #185a9d;
+      color: white;
+      padding: 0.8rem;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+  
+      &:hover {
+        background-color: #0d3c6a;
+      }
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
